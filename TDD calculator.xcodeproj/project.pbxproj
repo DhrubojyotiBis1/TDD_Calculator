@@ -14,6 +14,7 @@
 		6FACF72024269E7C00A4F677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FACF71F24269E7C00A4F677 /* Assets.xcassets */; };
 		6FACF72324269E7C00A4F677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FACF72124269E7C00A4F677 /* LaunchScreen.storyboard */; };
 		6FACF72E24269E7C00A4F677 /* TDD_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACF72D24269E7C00A4F677 /* TDD_calculatorTests.swift */; };
+		6FACF73A2426A0AD00A4F677 /* calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FACF7392426A0AD00A4F677 /* calculate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6FACF72924269E7C00A4F677 /* TDD calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FACF72D24269E7C00A4F677 /* TDD_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_calculatorTests.swift; sourceTree = "<group>"; };
 		6FACF72F24269E7C00A4F677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FACF7392426A0AD00A4F677 /* calculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6FACF71524269E7900A4F677 /* TDD calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6FACF7382426A09600A4F677 /* model */,
 				6FACF71624269E7900A4F677 /* AppDelegate.swift */,
 				6FACF71824269E7900A4F677 /* SceneDelegate.swift */,
 				6FACF71A24269E7900A4F677 /* ViewController.swift */,
@@ -97,6 +100,14 @@
 				6FACF72F24269E7C00A4F677 /* Info.plist */,
 			);
 			path = "TDD calculatorTests";
+			sourceTree = "<group>";
+		};
+		6FACF7382426A09600A4F677 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6FACF7392426A0AD00A4F677 /* calculate.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FACF73A2426A0AD00A4F677 /* calculate.swift in Sources */,
 				6FACF71B24269E7900A4F677 /* ViewController.swift in Sources */,
 				6FACF71724269E7900A4F677 /* AppDelegate.swift in Sources */,
 				6FACF71924269E7900A4F677 /* SceneDelegate.swift in Sources */,
@@ -369,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tips.TDD-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TDD-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tips.TDD-calculator";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TDD-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
